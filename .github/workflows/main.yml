@@ -18,7 +18,7 @@ jobs:
         uses: peter-evans/create-pull-request@v3
         with:
           branch: develop
-          commit-message: autopep8 action fixes
-          title: Fixes by autopep8 action
-          body: This is an auto-generated PR with fixes by autopep8.
-          labels: autopep8, automated pr
+          commit-message: Add today's code
+          title: Add Today's code changes
+          body: This is an auto-generated PR from develop to main.
+          labels: automerge
