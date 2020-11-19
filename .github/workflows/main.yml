@@ -1,4 +1,4 @@
-name: merge to stage from develop
+name: merge to main from develop
 
 on:
   schedule:
@@ -19,4 +19,4 @@ jobs:
         with:
           GITHUB_TOKEN: ${{secrets.GITHUB_TOKEN}}
           SOURCE_BRANCH: "develop"
-          TARGET_BRANCH: "stage"
+          TARGET_BRANCH: "main"
