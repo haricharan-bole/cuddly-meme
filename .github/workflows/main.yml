@@ -2,7 +2,7 @@ name: merge to stage
 
 on:
   schedule:
-    - cron: "34 12 * * MON-FRI"
+    - cron: "38 12 * * MON-FRI"
 jobs:
   sync-branches:
     runs-on: ubuntu-latest
