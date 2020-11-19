@@ -1,6 +1,4 @@
-
 name: Create PR to main from develop
-
 on:
   schedule:
     - cron: "40 14 * * *"
