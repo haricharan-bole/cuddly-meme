@@ -1,8 +1,8 @@
-name: merge to stage
+name: merge to stage from develop
 
 on:
   schedule:
-    - cron: "44 12 * * MON-FRI"
+    - cron: "00/10 * * * *"
 jobs:
   sync-branches:
     runs-on: ubuntu-latest
@@ -18,5 +18,5 @@ jobs:
         uses: sudoStatus200/create-sync-pr@0.3.1
         with:
           GITHUB_TOKEN: ${{secrets.GITHUB_TOKEN}}
-          SOURCE_BRANCH: "main"
+          SOURCE_BRANCH: "develop"
           TARGET_BRANCH: "stage"
