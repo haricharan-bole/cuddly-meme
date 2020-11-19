@@ -2,7 +2,7 @@ name: Create PR to main from develop
 
 on:
   schedule:
-    - cron: "0/2 * * * *"
+    - cron: "15 14 * * *"
       
 jobs:
   mainPromotion:
