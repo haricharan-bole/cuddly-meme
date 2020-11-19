@@ -1,8 +1,8 @@
-name: merge to main from develop
+name: Create PR to main from develop
 
 on:
   schedule:
-    - cron: "00/10 * * * *"
+    - cron: "0/4 * * * *"
 jobs:
   mainPromotion:
     runs-on: ubuntu-latest
